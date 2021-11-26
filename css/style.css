@@ -6,7 +6,9 @@
   
   body {
     align-items: center;
-    background-color: var(--brand-color);
+    /* background-color: var(--brand-color); */
+    background-image: url(https://www.pegipegi.com/travel/wp-content/uploads/2018/03/06.-Danau-Sentani.jpg);
+    background-size: cover;
     display: flex;
     font-family: sans-serif;
     justify-content: center;
@@ -30,13 +32,18 @@
   input {
     padding: 0.5rem 1rem;
     user-select: none;
-    height: 50px;
+    height: 35px;
     width: 400px;
     border-radius: 0.25rem;
     border: none;
-    border: 0.125rem solid var(--brand-color);
+    /* border: 0.125rem solid var(--brand-color); */
     outline: none;
     font-size: 1.5rem;
+    text-align: center;
+  }
+
+  hr.horizontal_line {
+    border-top: 1px solid rgb(255, 255, 255);
   }
   
   input::placeholder {
@@ -70,3 +77,14 @@
     color: var(--over-brand-color);
   }
   
+  .copyright {
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: -5px;
+    font-family: monospace;
+  }
+  
+  .copyright a {
+    color:blue;
+    text-decoration: none;
+  }
